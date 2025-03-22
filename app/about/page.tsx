@@ -17,9 +17,7 @@ const skills = {
     { name: "TypeScript", level: 85 },
     { name: "Tailwind CSS", level: 87 },
     { name: "Material-UI (MUI)", level: 85 },
-    { name: "Chakra UI", level: 80 },
     { name: "Framer Motion (Animations)", level: 78 },
-    { name: "Redux / Zustand / Context API", level: 80 },
     { name: "Responsive Web Design", level: 90 },
     { name: "Figma (UI/UX Design)", level: 77 },
     { name: "SEO Basics", level: 70 },
@@ -33,11 +31,8 @@ const skills = {
     { name: "Socket.IO", level: 75 },
     { name: "JWT Authentication", level: 80 },
     { name: "RESTful API Design", level: 85 },
-    { name: "GraphQL", level: 70 },
-    { name: "Prisma ORM", level: 72 },
     { name: "WebSockets", level: 75 },
     { name: "API Integration", level: 85 },
-    { name: "CMS (Strapi, Sanity)", level: 70 },
   ],
   database: [
     { name: "PostgreSQL", level: 83 },
@@ -49,8 +44,6 @@ const skills = {
   tools: [
     { name: "Git & GitHub", level: 92 },
     { name: "Agile / Scrum Methodologies", level: 80 },
-    { name: "Project Management Tools (Trello, Jira)", level: 75 },
-    { name: "Unit & Integration Testing (Jest, React Testing Library)", level: 72 },
     { name: "Linux / Ubuntu", level: 75 },
     { name: "Software Documentation", level: 78 },
   ],
@@ -58,7 +51,6 @@ const skills = {
     { name: "Problem Solving", level: 88 },
     { name: "Team Collaboration", level: 85 },
     { name: "Debugging & Testing", level: 82 },
-    { name: "Data Structures & Algorithms", level: 80 },
   ],
 };
 
