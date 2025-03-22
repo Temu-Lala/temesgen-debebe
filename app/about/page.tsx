@@ -130,43 +130,48 @@ export default function AboutPage() {
             </p>
 
             <div className="flex space-x-3">
-              <motion.div whileHover={{ y: -5 }}>
-                <Button
-                  size="icon"
-                  variant="outline"
-                  className="rounded-full border-cyan-700 text-cyan-400 hover:bg-cyan-900/20"
-                >
-                  <Github className="h-5 w-5" />
-                </Button>
-              </motion.div>
-              <motion.div whileHover={{ y: -5 }}>
-                <Button
-                  size="icon"
-                  variant="outline"
-                  className="rounded-full border-cyan-700 text-cyan-400 hover:bg-cyan-900/20"
-                >
-                  <Linkedin className="h-5 w-5" />
-                </Button>
-              </motion.div>
-              <motion.div whileHover={{ y: -5 }}>
-                <Button
-                  size="icon"
-                  variant="outline"
-                  className="rounded-full border-cyan-700 text-cyan-400 hover:bg-cyan-900/20"
-                >
-                  <Twitter className="h-5 w-5" />
-                </Button>
-              </motion.div>
-              <motion.div whileHover={{ y: -5 }}>
-                <Button
-                  size="icon"
-                  variant="outline"
-                  className="rounded-full border-cyan-700 text-cyan-400 hover:bg-cyan-900/20"
-                >
-                  <Mail className="h-5 w-5" />
-                </Button>
-              </motion.div>
-            </div>
+  <motion.div whileHover={{ y: -5 }}>
+    <Button
+      size="icon"
+      variant="outline"
+      className="rounded-full border-cyan-700 text-cyan-400 hover:bg-cyan-900/20"
+      onClick={() => window.open('https://github.com/Temu-Lala', '_blank')}
+    >
+      <Github className="h-5 w-5" />
+    </Button>
+  </motion.div>
+  <motion.div whileHover={{ y: -5 }}>
+    <Button
+      size="icon"
+      variant="outline"
+      className="rounded-full border-cyan-700 text-cyan-400 hover:bg-cyan-900/20"
+      onClick={() => window.open('https://github.com/Temu-Lala', '_blank')}
+    >
+      <Linkedin className="h-5 w-5" />
+    </Button>
+  </motion.div>
+  <motion.div whileHover={{ y: -5 }}>
+    <Button
+      size="icon"
+      variant="outline"
+      className="rounded-full border-cyan-700 text-cyan-400 hover:bg-cyan-900/20"
+      onClick={() => window.open('https://github.com/Temu-Lala', '_blank')}
+    >
+      <Twitter className="h-5 w-5" />
+    </Button>
+  </motion.div>
+  <motion.div whileHover={{ y: -5 }}>
+    <Button
+      size="icon"
+      variant="outline"
+      className="rounded-full border-cyan-700 text-cyan-400 hover:bg-cyan-900/20"
+      onClick={() => window.open('https://t.me/TD_lala', '_blank')}
+    >
+      <Mail className="h-5 w-5" />
+    </Button>
+  </motion.div>
+</div>
+
           </motion.div>
 
           {/* Skills Section */}
