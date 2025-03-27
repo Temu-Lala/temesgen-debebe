@@ -8,6 +8,7 @@ import { HolographicCard } from "@/components/holographic-card"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Github, ExternalLink } from "lucide-react"
+import Link from "next/link"
 
 const projects = [
   {
@@ -157,14 +158,18 @@ export default function ProjectsPage() {
                 </div>
 
                 <div className="flex justify-between border-t border-cyan-900/30 p-4">
-                  <Button variant="outline" size="sm" className="border-cyan-800 text-cyan-300 hover:bg-cyan-900/20">
-                    <Github className="mr-2 h-4 w-4" />
-                    Code
-                  </Button>
-                  <Button variant="outline" size="sm" className="border-cyan-800 text-cyan-300 hover:bg-cyan-900/20">
-                    <ExternalLink className="mr-2 h-4 w-4" />
-                    Demo
-                  </Button>
+                  <Link href={project.github} target="_blank" rel="noopener noreferrer">
+                    <Button variant="outline" size="sm" className="border-cyan-800 text-cyan-300 hover:bg-cyan-900/20">
+                      <Github className="mr-2 h-4 w-4" />
+                      Code
+                    </Button>
+                  </Link>
+                  <Link href={project.demo} target="_blank" rel="noopener noreferrer">
+                    <Button variant="outline" size="sm" className="border-cyan-800 text-cyan-300 hover:bg-cyan-900/20">
+                      <ExternalLink className="mr-2 h-4 w-4" />
+                      Demo
+                    </Button>
+                  </Link>
                 </div>
               </HolographicCard>
             </motion.div>
@@ -174,4 +179,3 @@ export default function ProjectsPage() {
     </div>
   )
 }
-
