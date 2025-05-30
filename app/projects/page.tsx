@@ -71,6 +71,15 @@ const projects = [
     github: "#",
     demo: "#",
     color: "150, 100, 255", // Purple
+  },  {
+    id: 7,
+    title: "Tallent Markets ",
+    description: " E-commerce works by showing products to customers online, letting them choose what they want to buy, providing a way to pay securely, and then recording and managing their orders so that the seller can ship the products to them. The website handles all these steps using product pages, shopping carts, secure payments, and order management features. using next,js , tailwind css  , framer motions  ",
+    image: "/placeholder.svg?height=200&width=400",
+    tags: ["Tallent", "sell products", "open your shope "],
+    github: "https://talentmarketcom.vercel.app/",
+    demo: "https://talentmarketcom.vercel.app/",
+    color: "150, 100, 255", 
   },
 ]
 
