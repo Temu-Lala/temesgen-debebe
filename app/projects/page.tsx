@@ -25,7 +25,8 @@ const projects = [
   {
     id: 2,
     title: "AllDay Cafe and restaurant",
-    description:       " A website that allows users to view the menu, make reservations, and order food online. Built with Next.js, Tailwind CSS. ",
+    description:
+      " A website that allows users to view the menu, make reservations, and order food online. Built with Next.js, Tailwind CSS. ",
     image: "/placeholder.svg?height=200&width=400",
     tags: ["Food menu", " drinks menu", "Order food online"],
     github: "https://github.com/Temu-Lala/happy",
@@ -35,7 +36,8 @@ const projects = [
   {
     id: 3,
     title: "Hulu General Commissons",
-    description: " a company that deals with general commissons. Built with Next.js, Tailwind CSS. ",
+    description:
+      " a company that deals with general commissons. Built with Next.js, Tailwind CSS. ",
     image: "/placeholder.svg?height=200&width=400",
     tags: ["Detailed Descriptions", " servicess", " its location"],
     github: "https://github.com/Temu-Lala/hulugeneral-commission",
@@ -44,10 +46,11 @@ const projects = [
   },
   {
     id: 4,
-    title: " Communi Tech", 
-    description: " A website that talks about Communi Tech it is a technology company portfolio. Built with Next.js, Tailwind CSS. ",
+    title: " Communi Tech",
+    description:
+      " A website that talks about Communi Tech it is a technology company portfolio. Built with Next.js, Tailwind CSS. ",
     image: "/placeholder.svg?height=200&width=400",
-    tags:  ["Detailed Descriptions", " servicess", " its Solutions"],
+    tags: ["Detailed Descriptions", " servicess", " its Solutions"],
     github: "https://github.com/Temu-Lala/Communi-Tech",
     demo: "https://www.communipress.com/",
     color: "150, 100, 255", // Purple
@@ -55,7 +58,8 @@ const projects = [
   {
     id: 5,
     title: "Hulu Desktop App",
-    description: " A desktop app that allows  CRM (Customer Relationship Management)  it's  manage customer interactions, users, and communications,  . Built with Electron, , Tailwind CSS.,Django ",
+    description:
+      " A desktop app that allows  CRM (Customer Relationship Management)  it's  manage customer interactions, users, and communications,  . Built with Electron, , Tailwind CSS.,Django ",
     image: "/placeholder.svg?height=200&width=400",
     tags: [" CRM ", "customer interactions", "Django"],
     github: "https://github.com/Temu-Lala",
@@ -65,23 +69,48 @@ const projects = [
   {
     id: 6,
     title: "car rental",
-    description: " car rental website that allows users to view the cars, make reservations, and order cars online. Built with Next.js, Tailwind CSS. ",
+    description:
+      " car rental website that allows users to view the cars, make reservations, and order cars online. Built with Next.js, Tailwind CSS. ",
     image: "/placeholder.svg?height=200&width=400",
     tags: ["car", "order cars online", " make reservations"],
     github: "#",
     demo: "#",
     color: "150, 100, 255", // Purple
-  },  {
+  },
+  {
     id: 7,
     title: "Tallent Markets ",
-    description: " E-commerce works by showing products to customers online, letting them choose what they want to buy, providing a way to pay securely, and then recording and managing their orders so that the seller can ship the products to them. The website handles all these steps using product pages, shopping carts, secure payments, and order management features. using next,js , tailwind css  , framer motions  ",
+    description:
+      " E-commerce works by showing products to customers online, letting them choose what they want to buy, providing a way to pay securely, and then recording and managing their orders so that the seller can ship the products to them. The website handles all these steps using product pages, shopping carts, secure payments, and order management features. using next,js , tailwind css  , framer motions  ",
     image: "/placeholder.svg?height=200&width=400",
     tags: ["Tallent", "sell products", "open your shope "],
     github: "https://talentmarketcom.vercel.app/",
     demo: "https://talentmarketcom.vercel.app/",
-    color: "150, 100, 255", 
+    color: "150, 100, 255",
   },
-]
+  {
+    id: 8,
+    title: "Lala Tools ",
+    description:
+      "LALA ToolKit – A suite of 50+ simple, useful tools | Toggle theme – Instantly switch between light and dark mode | QR Code Generator – Generate QR codes from text or URLs | Barcode Generator – Create barcodes from text or numbers | Calculator – Perform basic math operations | Stopwatch/Timer – Track time with a stopwatch or countdown | Weather Widget – View real-time weather updates | To-Do List – Organize your tasks in a simple list | Color Picker – Pick and copy color codes easily | Password Generator – Generate strong random passwords | Unit Converter – Convert between units like length, weight, etc. | Markdown Previewer – Write and preview Markdown live | Tip Calculator – Calculate tips and split bills | Countdown Timer – Countdown to events and deadlines | Dice Roller – Roll animated virtual dice | Random Quote Generator – Get random inspirational quotes | Pomodoro Timer – Focus using the Pomodoro technique | Image Carousel – Create and preview image slideshows | Drawing Canvas – Draw and sketch on a digital canvas | BMI Calculator – Calculate your Body Mass Index | Dark Mode Toggle – Toggle between light and dark themes | Text Encryption – Encrypt and decrypt text messages | Expense Tracker – Track your income and expenses | Typing Speed Test – Test your typing speed and accuracy | Rock Paper Scissors – Play the classic game digitally | Morse Code Translator – Convert text to/from Morse code | HTML/CSS Playground – Write and see HTML/CSS live | Notes App – Create and organize sticky notes | Pie Chart Generator – Make professional pie charts | File Converter – Convert images and text files | Audio Visualizer – Visualize audio in real time | Fake Telegram Chat – Generate fake Telegram chats | Image to Base64 Converter – Convert images to Base64 format | Excel File Viewer – Open and view Excel files | Calendar Converter – Convert between calendar systems | Text Differencer – Compare two blocks of text | Secure Notes – Write encrypted private notes | Shortcut Keys – View useful Git and app shortcuts | Bg Remover – Remove image backgrounds automatically",
+    image: "/placeholder.svg?height=200&width=400",
+    tags: ["qr generater ", " Barcode Generator ", "Text Encryption "],
+    github: "https://github.com/Temu-Lala/lalatools/",
+    demo: "https://lalatools.vercel.app/",
+    color: "150, 100, 255",
+  },
+  {
+    id: 9,
+    title: "Lala AI ",
+    description:
+      "**LALA AI** is a personal AI assistant that chats, takes notes, and answers questions based on user context. you can see the screenshots below. It uses advanced AI models to understand and respond to user queries, making it a versatile tool for productivity and information retrieval. LALA AI can be integrated into various applications, providing users with a seamless experience in managing their tasks and accessing information quickly.",
+    image: "/lalaai.png?height=200&width=400",
+    tags: ["Lala AI", "takes notes", " Code Generations"],
+    github: "https://github.com/Temu-Lala/lalatools/",
+    demo: "#",
+    color: "150, 100, 255", // Purple
+  },
+];
 
 export default function ProjectsPage() {
   return (
