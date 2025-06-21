@@ -110,6 +110,17 @@ const projects = [
     demo: "#",
     color: "150, 100, 255", // Purple
   },
+  {
+    id: 10,
+    title: "Lala Payment ",
+    description:
+      "Lala Payment For ethiopians is a payment method that allow user to pay using , master card, visa card, usdt i make using react native and redux for state management and react query for fetching data from api",
+    image: "/lalamobile.jpg?height=200&width=400",
+    tags: ["Lala payment", "React native", "  firebase"],
+    github: "https://github.com/Temu-Lala/",
+    demo: "#",
+    color: "150, 100, 255", // Purple
+  },
 ];
 
 export default function ProjectsPage() {
